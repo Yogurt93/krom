@@ -115,9 +115,8 @@
   @media (max-width:640px){
     .hero{min-height:0}
     .hero-inner{padding:24px 0 28px}
-    .hero-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-    .hero-actions .btn{width:auto;text-align:center;padding:12px 10px;font-size:.92rem}
-    .hero-actions .btn:first-child{grid-column:1/-1}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:8px}
+    .hero-actions .btn{width:auto;flex:0 1 auto;text-align:center;padding:10px 16px;font-size:.86rem}
     .hero-badges{gap:14px;margin-top:20px;font-size:.8rem}
     .hero-badges b{font-size:1.15rem}
     .hero p{font-size:.95rem;margin:12px 0 18px}
@@ -154,7 +153,7 @@
       <h1>Барбершоп <em>Кром</em></h1>
       <p>Мужские стрижки без конвейера. Слушают, подсказывают и делают так, чтобы не пришлось «подровнять» через неделю. Запись по звонку.</p>
       <div class="hero-actions">
-        <a class="btn" href="tel:+79991675612">Позвонить и записаться</a>
+        <a class="btn" href="tel:+79991675612">Позвонить</a>
         <a class="btn btn-ghost" href="#services">Цены</a>
         <a class="btn btn-ghost" href="https://vk.com/club239483550" target="_blank" rel="noopener">ВКонтакте</a>
       </div>

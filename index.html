@@ -115,8 +115,9 @@
   @media (max-width:640px){
     .hero{min-height:0}
     .hero-inner{padding:24px 0 28px}
-    .hero-actions{display:flex;flex-wrap:wrap;gap:8px}
-    .hero-actions .btn{width:auto;flex:0 1 auto;text-align:center;padding:10px 16px;font-size:.86rem}
+    .hero-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+    .hero-actions .btn{width:auto;text-align:center;padding:11px 12px;font-size:.88rem}
+    .hero-actions .btn:first-child{grid-column:1/-1}
     .hero-badges{gap:14px;margin-top:20px;font-size:.8rem}
     .hero-badges b{font-size:1.15rem}
     .hero p{font-size:.95rem;margin:12px 0 18px}
